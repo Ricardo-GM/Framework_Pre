@@ -1,0 +1,36 @@
+{
+  "Email":{
+    "GetFieldBy": "id",
+    "ValueToFind": "email"
+  },
+
+  "Confirmation Email":{
+    "GetFieldBy": "id",
+    "ValueToFind": "confirm"
+  },
+  "Titulo": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"__next\"]/main/div[2]/div/div[2]/h2"
+  },
+  "Mes de Nacimiento": {
+    "GetFieldBy": "id",
+    "ValueToFind": "month"
+  },
+
+  "Email Error": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"__next\"]/main/div[2]/form/div[1]/div[2]/span"
+  },
+  "Male": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"__next\"]/main/div[2]/div/form/fieldset/div/div[1]/label/span[1]"
+  },
+  "Female": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"__next\"]/main/div[2]/div/form/fieldset/div/div[2]/label/span[1]"
+  },
+  "No binary": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"__next\"]/main/div[2]/div/form/fieldset/div/div[3]/label/span[1]"
+  }
+}

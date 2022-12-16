@@ -1,0 +1,19 @@
+{
+  "usernameInput": {
+    "GetFieldBy": "id",
+    "ValueToFind": "username"
+  },
+  "passwordInput": {
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  },
+  "submitButton": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"login\"]/button"
+  },
+  "flashMessage": {
+    "GetFieldBy": "id",
+    "ValueToFind": "flash"
+  }
+
+}

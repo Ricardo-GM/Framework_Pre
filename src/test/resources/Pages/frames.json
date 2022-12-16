@@ -1,0 +1,31 @@
+{
+  "Frame1":{
+    "GetFieldBy": "id",
+    "ValueToFind": "frame1"
+  },
+  "Frame2":{
+    "GetFieldBy": "id",
+    "ValueToFind": "frame2"
+  },
+  "Frame3":{
+    "GetFieldBy": "id",
+    "ValueToFind": "frame3"
+  },
+  "Frame1 input":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/input"
+  },
+  "Frame2 select":{
+    "GetFieldBy": "id",
+    "ValueToFind": "animals"
+  },
+  "Frame4 Alert": {
+    "GetFieldBy": "id",
+    "ValueToFind": "iframeResult"
+  },
+  "Alert": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/button[1]"
+  }
+
+}
